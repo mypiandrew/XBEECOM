@@ -55,6 +55,8 @@ else:
 		ser.open()
 
 		if args.trans:
+                        send(ser, '+++')
+                        receive(ser)
 			send(ser, 'ATAP=0\r')
 			receive(ser)
 			if args.save:
