@@ -7,6 +7,7 @@ Python Scripts and documentation for XBEE-COM DIN IO Units
 ## Programs
 
 ```configurenetwork.py``` 
+
 This script performs the following steps:
 - Local Network ID (2513)
 - Local Node Name (XBEEPI)
@@ -18,12 +19,15 @@ This script performs the following steps:
   power cycles
 
 ```setlocalxbeebaud.py```
+
 This script re-configures the local XBEE baud rate settings
 
 ```setlocalxbeedest.py```
+
 This script sets the local XBEE's target/destination COM module 
 
 ```xbeesetremotebaud.py```
+
 This script performs the following steps:
 - Checks if target node name is known, if not asks to re-run discovery process
 - Manually Sets BD/NB/SB settings on target remote node 
@@ -32,6 +36,7 @@ This script performs the following steps:
 - Applies changes
 
 ```xbeesetremotedhdl.py```
+
 This script performs the following steps:
 - Looks up local XBEE SH/SL address
 - Checks if target node name is known, if not asks to re-run discovery process
