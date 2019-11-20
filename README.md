@@ -9,12 +9,11 @@ Python Scripts and documentation for XBEE-COM DIN IO Units
 ```configurenetwork.py``` 
 
 This script performs the following steps:
-- Local Network ID (2513)
-- Local Node Name (XBEEPI)
+- Set Local Network ID (2513)
+- Set Local Node Name (XBEEPI)
 - Runs network discovery to map network nodes
 - Runs local AG Command to setup mesh network with XBEEPI as central node,
   AG command overwrites DH/DL on remote units with matching address
-- Sets module into transparent comms mode (AP=0)
 - Saves settings on remote COM units so return packet address retained over 
   power cycles
 
