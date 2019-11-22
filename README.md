@@ -83,7 +83,7 @@ Finally set the local XBEE unit back to to TRANSPARENT mode:
 ```XBEE_SERIAL_PORT``` is the serial port name that the local XBEE unit installed in the Pi Unit is connected to and will be typically one of ```ttyAMA0``` ```ttyS1``` or ```ttyUSB1``` depending on the hardware configuration, see main website page on relevant IO card for further details on this.
 
 
-***Note : To avoid problems it is important to wait about 60 seconds after power up before doing performing any network activity (either scans or tranmissions).***
+***Note : To avoid problems it is important to wait about 60 seconds after power up before doing performing any network activity (either scans or transmissions).***
 
 
 
