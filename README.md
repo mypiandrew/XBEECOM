@@ -62,6 +62,7 @@ cd xbeecom
 wget https://github.com/mypiandrew/XBEECOM/archive/master.zip
 unzip master.zip && cd python-xbee-master
 cd XBEECOM-master
+chmod +x *.py
 ```
 
 
