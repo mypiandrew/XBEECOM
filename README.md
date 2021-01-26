@@ -13,7 +13,7 @@ This script performs the following steps:
 - Set Local Node Name (XBEEPI)
 - Runs network discovery to map network nodes
 - Runs local AG Command to setup mesh network with XBEEPI as central node,
-  AG command overwrites DH/DL on remote units with matching address
+  AG command overwrites DH/DL on all remote units (or optionally just with matching DH+DL address)
 - Saves settings on remote COM units so return packet address retained over 
   power cycles
 
