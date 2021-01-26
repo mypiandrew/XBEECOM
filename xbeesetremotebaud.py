@@ -18,7 +18,7 @@ This program should be run with the host XBEE module in *Transparent* mode
 The program sets up
 - Checks if target node name is known, if not asks to re-run discovery process
 - Manually Sets BD/NB/SB settings on target remote node 
-- Optionally Saves settings on remote COM units so return packet address retained over
+- Optionally Saves changes on remote COM units so configuration is retained over
   power cycles
 - Applies changes
 
