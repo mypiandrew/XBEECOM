@@ -156,6 +156,9 @@ RESULT=OK
 ATAC
 
 ** XBee Now Set to Transparent Mode **
+
+
+
 root@raspberrypi:~/xbee/COM# ./setlocalxbeedest.py -p=ttyUSB1 -b="9600,8,N,1" -r="XBEECOM12345"
 +++
 OK
