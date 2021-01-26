@@ -108,6 +108,7 @@ RESULT=OK
 ** XBee Now Set to API Mode **
 
 
+
 root@raspberrypi:~/xbee/COM#  ./configurenetwork.py -p ttyUSB1 -b="9600,8,N,1"
 
 XBEE COM Configuration Utility v1.0
@@ -140,6 +141,9 @@ ATWR - 0013a200415d151e
 OK
 ATWR - 0013a20041725f5b
 OK
+
+
+
 root@raspberrypi:~/xbee/COM# ./setlocalxbeemode.py -p ttyUSB1 -b="9600,8,N,1" -t
 +++
 OK
@@ -170,6 +174,9 @@ OK
 
 RESULT=OK
 XBee Destination now Set XBEECOM12345 (DH=0013a200  DL=415d151e)
+
+
+
 root@raspberrypi:~/xbee/COM# mbpoll -a 1 -b 9600 -P none -t 4 -r 1 -c 5 /dev/ttyUSB1 -1 -v -o 4
 mbpoll 0.1-23 - FieldTalk(tm) Modbus(R) Master Simulator
 Copyright (c) 2015 epsilonRT, All rights reserved.
