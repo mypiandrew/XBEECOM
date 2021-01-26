@@ -22,7 +22,7 @@ The program sets up
 - Local Node Name (XBEEPI)
 - Runs network discovery to map network nodes
 - Runs local AG Command to setup mesh network with XBEEPI as central node,
-  AG command overwrites DH/DL on remote units with matching address
+  AG command overwrites DH/DL on all remote units (or optionally just units with matching DH+DL address)
 - Saves settings on remote COM units so return packet address retained over 
   power cycles
 
@@ -42,7 +42,7 @@ Example:
 parser = ArgParser(description='Configure XBEE-COM network', epilog=help_text, formatter_class=argparse.RawDescriptionHelpFormatter)
 parser.add_argument("-p", action='store', dest='port', help="serial port to connect to", required=True)
 parser.add_argument("-b", action='store', dest='baud', help="baud, databits, parity, stopbits", required=True)
-parser.add_argument("-a", action='store', dest='address', help="user supplied address for AG command")
+parser.add_argument("-a", action='store', dest='address', help="user supplied DH+DL address for AG command")
 
 # If there are no arguments
 if len(sys.argv)==1:
