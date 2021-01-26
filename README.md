@@ -1,6 +1,6 @@
-# XBEE-DIN-COM
+# RF-COM XBEE Configuration Scripts
 
-Python Scripts and documentation for XBEE-COM DIN IO Units
+Python Scripts and documentation for RF-COM Units
 
 
 
