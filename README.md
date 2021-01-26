@@ -14,8 +14,7 @@ This script performs the following steps:
 - Runs network discovery to map network nodes
 - Runs local AG Command to setup mesh network with XBEEPI as central node,
   AG command overwrites DH/DL on all remote units (or optionally just with matching DH+DL address)
-- Saves settings on remote COM units so return packet address retained over 
-  power cycles
+- Saves settings on all remote RF-COM units so configuration is retained over power cycles
 
 ```setlocalxbeebaud.py```
 
@@ -30,7 +29,7 @@ This script sets the local XBEE's target/destination COM module
 This script performs the following steps:
 - Checks if target node name is known, if not asks to re-run discovery process
 - Manually Sets BD/NB/SB settings on target remote node 
-- Optionally Saves settings on remote COM units so return packet address retained over
+- Optionally Saves changes on selected remote RF-COM unit so configuration is retained over
   power cycles
 - Applies changes
 
@@ -42,8 +41,9 @@ This script performs the following steps:
 - Manually Sets DH/DL on target remote node 
 - Runs local AG Command to setup mesh network with XBEEPI as central node,
   Uses invalid address by default to avoid overwriting DH/DL on other units
-- Saves settings on remote COM units so return packet address retained over,
+- Saves settings on selected remote remote RF-COM unit so configuration is retained over
   power cycles
+
 
 
 
